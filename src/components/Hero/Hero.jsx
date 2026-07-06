@@ -21,8 +21,28 @@ export default function Hero() {
           </p>
           <div className="hero__cta">
             <a href="#work" className="btn btn--filled">View Work</a>
-            <a href="#contact" className="btn btn--outline">Get in Touch</a>
+            <a href="#contact" className="btn-hero">Get in Touch</a>
           </div>
+
+          <nav className="hero__quicklinks eyebrow">
+            <a href="#work">Work</a>
+            <a href="#skills">Skills</a>
+            <a href="#contact">Contact</a>
+          </nav>
+
+          <div className="hero__badge">
+            <span className="hero__badge-star">✦</span>
+            <span className="hero__badge-star">✦</span>
+            <span className="hero__badge-star">✦</span>
+          </div>
+
+          <h3 className="hero__subtitle">
+            Systems that work while you don't.
+          </h3>
+          <p className="hero__desc hero__desc--right">
+            From lead capture to booked call, every handoff scripted,
+            connected and automated — no manual busywork in between.
+          </p>
         </div>
 
         <div className="hero__stage">
@@ -40,29 +60,9 @@ export default function Hero() {
             height="200"
           />
         </div>
-
-        <div className="hero__col hero__col--right">
-          <nav className="hero__quicklinks eyebrow">
-            <a href="#work">Work</a>
-            <a href="#skills">Skills</a>
-            <a href="#contact">Contact</a>
-          </nav>
-          <div className="hero__badge">
-            <span className="hero__badge-star">✦</span>
-            <span className="hero__badge-star">✦</span>
-            <span className="hero__badge-star">✦</span>
-          </div>
-          <h3 className="hero__subtitle">
-            Systems that work while you don't.
-          </h3>
-          <p className="hero__desc hero__desc--right">
-            From lead capture to booked call, every handoff scripted,
-            connected and automated — no manual busywork in between.
-          </p>
-        </div>
       </div>
 
-      <hr className="hairline hero__rule" />
+
     </section>
   )
 }
