@@ -1,5 +1,5 @@
 import AutomationGraph from '../3d_vertex/AutomationGraph.jsx'
-import avatar from '../assets/avatar.png'
+import avatar from '../assets/avatar.jpg'
 import './Hero.css'
 
 export default function Hero() {
