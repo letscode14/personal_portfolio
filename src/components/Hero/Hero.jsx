@@ -26,7 +26,9 @@ export default function Hero() {
         </div>
 
         <div className="hero__stage">
-          <AutomationGraph interactive />
+          <div className="hero__graph-breakout" aria-hidden="true">
+            <AutomationGraph interactive />
+          </div>
           <img
             src={avatar}
             alt="Arjun Padinjarethil"

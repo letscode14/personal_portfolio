@@ -5,6 +5,48 @@
     overflow: hidden;
 }
 
+.hero__stage {
+    position: relative;
+    width: 100%;
+    max-width: 420px;
+    aspect-ratio: 3 / 4;
+    margin: 0 auto;
+}
+
+/* NEW: breaks the graph out of .hero__stage's max-width box */
+.hero__graph-breakout {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100vw;
+    /* full viewport width, ignoring parent's max-width */
+    height: 100%;
+    z-index: 1;
+    pointer-events: none;
+}
+
+.hero__avatar {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    z-index: 2;
+    filter: grayscale(1) contrast(1.08);
+    -webkit-mask-image: radial-gradient(ellipse 58% 66% at 50% 38%, black 50%, rgba(0, 0, 0, 0.6) 68%, transparent 100%);
+    mask-image: radial-gradient(ellipse 58% 66% at 50% 38%, black 50%, rgba(0, 0, 0, 0.6) 68%, transparent 100%);
+    pointer-events: none;
+}
+
+@media (max-width: 980px) {
+    .hero__graph-breakout {
+        width: 100vw;
+    }
+}
+
 .hero__ghost {
     position: absolute;
     top: 8%;
