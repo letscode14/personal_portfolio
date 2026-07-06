@@ -26,7 +26,7 @@ export default function VoiceOrb({ active = false, color = '#f2f2f0' }) {
 
     const scene = new THREE.Scene()
     const camera = new THREE.PerspectiveCamera(45, width / height, 0.1, 100)
-    camera.position.set(0, 0, 4.4)
+    camera.position.set(0, 0, 4.9)
 
     const renderer = new THREE.WebGLRenderer({ antialias: true, alpha: true })
     renderer.setSize(width, height)

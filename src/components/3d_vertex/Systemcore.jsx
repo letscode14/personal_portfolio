@@ -30,11 +30,11 @@ function Knot({ interactive }) {
                 <torusKnotGeometry args={[1, 0.32, 160, 20, 2, 3]} />
                 <meshBasicMaterial color="#0b0b0a" wireframe transparent opacity={0.55} />
             </mesh>
-            <mesh ref={inner} scale={0.6}>
+            <mesh ref={inner} scale={1.8}>
                 <torusKnotGeometry args={[1, 0.32, 100, 14, 2, 3]} />
                 <meshBasicMaterial color="#0b0b0a" wireframe transparent opacity={0.25} />
             </mesh>
-        </group>
+        </group >
     )
 }
 
