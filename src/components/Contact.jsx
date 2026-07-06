@@ -4,7 +4,7 @@ const EMAIL = 'arjunpadinjarethil33@gmail.com'
 const PHONE = '+91 85909 33978'
 
 // Paste your webhook URL here (GHL, Make, Zapier, n8n, etc.)
-const WEBHOOK_URL = 'https://your-webhook-url-here.com'
+const WEBHOOK_URL = 'https://services.leadconnectorhq.com/hooks/KJdsZd0VIJo3DQTMVkSM/webhook-trigger/f24b0b81-078c-48af-ab78-4b0519226275'
 
 export default function Contact() {
   const [form, setForm] = useState({ name: '', email: '', message: '' })
