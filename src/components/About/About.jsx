@@ -52,7 +52,7 @@ export default function About() {
         </div>
       </div>
 
-      <hr className="hairline about__rule" />
+
     </section>
   )
 }

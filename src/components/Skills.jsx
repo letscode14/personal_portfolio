@@ -16,7 +16,7 @@ const GROUPS = [
 export default function Skills() {
   return (
     <section id="skills" className="skills section">
-      <hr className="hairline" />
+
       <div className="skills__head">
         <p className="eyebrow">02 — Skills</p>
         <h2 className="skills__heading">The stack I build with</h2>

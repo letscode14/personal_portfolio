@@ -43,7 +43,7 @@ export default function Contact() {
 
   return (
     <section id="contact" className="contact section">
-      <hr className="hairline" />
+
       <div className="contact__grid">
         <div className="contact__intro">
           <p className="eyebrow">04 — Contact</p>

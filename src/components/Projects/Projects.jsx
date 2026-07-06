@@ -48,7 +48,7 @@ export default function Projects() {
 
   return (
     <section id="work" className="projects section">
-      <hr className="hairline" />
+
       <div className="projects__head">
         <p className="eyebrow">03 — Selected Work</p>
         <h2 className="projects__heading">Systems I've shipped</h2>

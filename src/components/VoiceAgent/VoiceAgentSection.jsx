@@ -53,7 +53,7 @@ export default function VoiceAgentSection() {
 
   return (
     <section id="voice-agents" className="voice section">
-      <hr className="hairline" />
+
       <div className="voice__head">
         <p className="eyebrow">04 — Voice Agents</p>
         <h2 className="voice__heading">Talk to one, right now</h2>
