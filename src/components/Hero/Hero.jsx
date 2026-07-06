@@ -27,7 +27,16 @@ export default function Hero() {
 
         <div className="hero__stage">
           <AutomationGraph interactive />
-          <img src={avatar} alt="Arjun Padinjarethil" className="hero__avatar" />
+          <img
+            src={avatar}
+            alt="Arjun Padinjarethil"
+            className="hero__avatar"
+            fetchpriority="high"
+            loading="eager"
+            decoding="async"
+            width="200"
+            height="200"
+          />
         </div>
 
         <div className="hero__col hero__col--right">
